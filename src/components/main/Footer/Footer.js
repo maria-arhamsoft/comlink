@@ -5,23 +5,29 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faPinterest } from "@fortawesome/free-brands-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import "./Footer.css";
-
 const Footer = () => {
     return (
         <div>
             <footer className="site-footer">
-                <div className="custom-container">
+                <Container fluid className="custom-container">
                     <div className="top-footer">
                         <Row className="get-started">
-                            <div className="col-lg-10">
+                            <div className="col-lg-8">
                                 <div className="get-start-content">
                                     <h5>Get Started with Comlink</h5>
                                     <p>Comlinkbundle can help you find the best-bundled deal for your TV, Internet, and Phone services to save your time and money.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-2">
-                                <button className="theme-btn">Get Started</button>
+                            <div className="col-lg-4">
+                                <div className="d-flex justify-content-end">
+                                    <button className="btn theme-btn">Get Started</button>
+                                </div>
                             </div>
                         </Row>
                         <Row className="footer-content-row">
@@ -85,18 +91,25 @@ const Footer = () => {
                                             <ul className="list-unstyled contact-info flex-column">
                                                 <li>
                                                     <a href="#">
-                                                        <span className="opacity-1">info@comlinked.com</span>
+                                                        <span className="me-2"><FontAwesomeIcon icon={faPhone} /></span>
+                                                        <span>833 604-1080</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
-                                                        <span>+1-833-526-0200</span>
+                                                        <span className="me-2">
+                                                            <FontAwesomeIcon icon={faEnvelope} />
+                                                        </span>
+                                                        <span className="opacity-1">info@comlinkbundle.com</span>
                                                     </a>
                                                 </li>
                                                 <li>
                                                     <a href="#">
+                                                        <span className="me-2">
+                                                            <FontAwesomeIcon icon={faLocationDot} />
+                                                        </span>
                                                         <span>
-                                                            2891 Center Point Drive, Fort Myers, FL 33916
+                                                            2891 Center Point Fort Myers, Florida 33916
                                                         </span>
                                                     </a>
                                                 </li>
@@ -107,11 +120,7 @@ const Footer = () => {
                             </Col>
                             <Col lg={3}>
                                 <div className="footer-newsletter">
-                                    <h5>Never Miss An Updates.</h5>
-                                    <p className="p-text-24 light-gray_clr">
-                                        Be the first to hear about new offers and updates from
-                                        comlinked
-                                    </p>
+                                    <h5>Newsletter</h5>
                                     <div className="field-wrapper">
                                         <input
                                             className="form-control"
@@ -119,9 +128,39 @@ const Footer = () => {
                                             type="text"
                                             placeholder="Email address"
                                         />
-                                        <button className="white-hover-bg theme-btn">
-                                            {/* <img src={Images.link} className="img-fluid" alt="img" /> */}
+                                        <button className="btn green-btn">
+                                            <img src={Images.Link} className="img-fluid" alt="img" />
                                         </button>
+                                    </div>
+                                    <div className="follow-us">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="#" className="facebook">
+                                                    <span><FontAwesomeIcon icon={faFacebookF} /></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="linkedin">
+                                                    <span><FontAwesomeIcon icon={faLinkedinIn} /></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="twitter">
+                                                    <span><FontAwesomeIcon icon={faTwitter} /></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="pinterest">
+                                                    <span><FontAwesomeIcon icon={faPinterest} /></span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" className="youtube">
+                                                    <span><FontAwesomeIcon icon={faYoutube} /></span>
+
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </Col>
@@ -129,12 +168,12 @@ const Footer = () => {
                     </div>
                     <div className="bottom-footer">
                         <div className="copyrights">
-                            <p className="p-text-20 light-gray_clr">
-                                Copyright © 2023 Comlinked. Internet. All Rights Reserved.
+                            <p className="p-text-20">
+                                Copyright Reserved by www.comlinkai.com
                             </p>
                         </div>
                     </div>
-                </div>
+                </Container>
             </footer>
         </div>
     );

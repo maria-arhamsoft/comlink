@@ -1,12 +1,12 @@
 /* footer css */
 .site-footer {
-    /* background-image: url(../../../assets/images/footer-bg.png); */
+    background-image: url(../../../assets/images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    padding-top: 200px;
+    padding-top: 45px;
     color: #fff;
-    clip-path: polygon(81% 0, 100% 19%, 100% 100%, 0 100%, 0 29%);
-    background: blue;
+    /* clip-path: polygon(81% 0, 100% 19%, 100% 100%, 0 100%, 0 29%);
+    background: blue; */
     
 }
 .get-started.row {
@@ -17,11 +17,23 @@
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px;
+    display: flex;
+    align-items: center;
 }
-
+.footer-content-row.row {
+    margin-top: 85px;
+}
+.footer-content {
+    padding-top: 42px;
+    font-size: 16px;
+    margin-right: 30px;
+}
+.get-start-content p{
+    margin-top: 15px;
+}
 .footer-newsletter .field-wrapper {
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .footer-newsletter {
@@ -29,25 +41,38 @@
 }
 
 .footer-newsletter h5 {
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
 }
 
 .field-wrapper .form-control {
-    background: transparent;
+    background: #fff;
     border-radius: 10px;
-    font-size: 24px;
-    padding: 10px 10px 0 0;
+    font-size: 18px;
+    padding: 10px 17px 10px 10px;
     height: 60px;
-    border-color: #868686;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-radius: 0;
+    border: none;
+    color: #273770 !important;
+    border-radius: 8px;
     font-weight: 500;
     color: #D0D0D0;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
-
+.field-wrapper::placeholder{
+    color: #273770 !important;
+}
+button.green-btn {
+    background: #439037;
+    border-radius: 0px 8px 8px 0;
+    margin-left: -9px;
+}
+button.green-btn:hover{
+    border-color: #fff;
+    background-color: #439037;
+}
 .form-control:focus {
     border-color: #86b7fe;
     outline: none;
@@ -59,7 +84,7 @@ textarea>.form-control {
 }
 
 .contact-list .footer-links li a {
-    color: rgb(255, 255, 255, 0.8);
+    color: #fff;
 }
 
 .contact-list .footer-links li {
@@ -69,7 +94,9 @@ textarea>.form-control {
 .field-wrapper .theme-btn {
     margin-left: -25px;
 }
-
+.footer-logo {
+    margin-top: -28px;
+}
 .footer-info {
     padding-right: 40px;
 }
@@ -79,31 +106,26 @@ textarea>.form-control {
     margin-bottom: 50px;
 }
 
-.store-logos {
-    display: flex;
-    margin-bottom: 60px;
-}
-
-.store-logos .image {
-    width: 150px;
-    margin-right: 10px;
-}
-
 .follow-us ul {
-    margin-top: 20px;
+    margin-top: 38px;
     display: flex;
     align-items: center;
 }
 
 .follow-us ul li a {
-    width: 45px;
-    height: 45px;
+    width: 36px;
+    height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: transparent;
-    margin-right: 10px;
-    font-size: 30px;
+    background: #fff;
+    margin-right: 15px;
+    font-size: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .store-logos .image:last-child {
@@ -115,7 +137,7 @@ textarea>.form-control {
 }
 
 .follow-us ul li .facebook {
-    color: #868686;
+    color: #6380c5;
 }
 
 .follow-us ul li .facebook:hover {
@@ -124,7 +146,7 @@ textarea>.form-control {
 }
 
 .follow-us ul li .linkedin {
-    color: #868686;
+    color: #087bb7;
 }
 
 .follow-us ul li .linkedin:hover {
@@ -133,7 +155,7 @@ textarea>.form-control {
 }
 
 .follow-us ul li .twitter {
-    color: #868686;
+    color: #03a9f4;
 }
 
 .follow-us ul li .twitter:hover {
@@ -142,7 +164,7 @@ textarea>.form-control {
 }
 
 .follow-us ul li .pinterest {
-    color: #868686;
+    color: #cb1f24;
 }
 
 .follow-us ul li .pinterest:hover {
@@ -151,7 +173,7 @@ textarea>.form-control {
 }
 
 .follow-us ul li .youtube {
-    color: #868686;
+    color: #ff0000;
 }
 
 .follow-us ul li .youtube:hover {
@@ -165,29 +187,31 @@ textarea>.form-control {
 
 .footer-links h5 {
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 24px;
+    line-height: 26px;
 }
 
 .footer-links li {
-    margin-bottom: 30px;
-    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 .footer-links li a {
-    color: #868686;
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer-links li a:hover {
-    color: #267DDD;
+    color: #439037;
 }
 
 .drop-down__menu li:hover,
 li.menu-item-has-children a:hover {
-    color: #267DDD;
+    color: #439037;
 }
 
 .footer-links .contact-info li {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .footer-links .contact-info li a {
@@ -200,17 +224,14 @@ li.menu-item-has-children a:hover {
 }
 
 .copyrights {
-    padding: 30px 15px;
+    padding: 20px 0;
 }
-
 .copyrights p {
-    color: #969eb4;
     text-align: center;
 }
 
 .bottom-footer {
-    border-top: 1px solid #868686;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width:1600px) {
@@ -232,21 +253,13 @@ li.menu-item-has-children a:hover {
     .footer-links .contact-info li {
         font-size: 16px;
     }
-
-    .site-footer {
-        padding-top: 150px;
-    }
-
     .field-wrapper .form-control {
         font-size: 18px;
     }
 }
 
 @media only screen and (max-width:1199px) {
-    .site-footer {
-        padding-top: 90px;
-    }
-
+   
     .padding-100 {
         padding: 40px 0;
     }
