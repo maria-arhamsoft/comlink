@@ -1,0 +1,202 @@
+.site-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 16px #00000029;
+    z-index: 1;
+    width: 100%;
+}
+
+.site-header .navbar {
+    padding: 10px 0;
+}
+
+.site-header .navbar .pages-names a {
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0px;
+    font-weight: 600;
+    color: #1A2A79;
+    text-transform: capitalize;
+    transition: all 0.5s;
+    position: relative;
+    margin: 0 0 0 50px;
+    padding: 0;
+    text-decoration: none;
+}
+.site-main-logo {
+    width: 190px;
+}
+.call-lottie {
+    width: 45px;
+}
+.haeder-phone {
+    margin-left: 50px;
+}
+.site-header .navbar .pages-names a.active,
+.site-header .navbar .pages-names a:hover {
+    color: #439037 !important;
+}
+
+.site-header .navbar .pages-names a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    background: #439037;
+    -o-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+}
+
+.site-header .navbar a:hover:after,
+.site-header.navbar a.active:after {
+    width: 100%;
+}
+
+/* media quries */
+
+@media only screen and (max-width: 1550px) {
+    .site-header .navbar .pages-names a {
+        margin: 0 0 0 40px;
+    }
+
+    .header-blue-btn.btn_wrap button {
+        margin: 0 0 0 40px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .site-header .navbar .pages-names a {
+        margin: 0px 0 0 30px;
+    }
+
+    .header-blue-btn.btn_wrap button {
+        margin: 0 0 0 30px;
+    }
+
+    .site-header .navbar .pages-names a {
+        font-size: 14px;
+    }
+
+    .site-header .navbar {
+        padding: 10px 0;
+    }
+
+    .logo-image {
+        width: 240px;
+    }
+}
+
+
+@media only screen and (max-width: 1199px) {
+    .site-header .navbar .pages-names a {
+        margin: 0 0 0 15px;
+    }
+
+    .logo-image {
+        width: 200px;
+    }
+
+    .site-header.navbar .nav-link {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .header-blue-btn.btn_wrap button {
+        margin-right: 60px;
+        margin-left: 0;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255,255,255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+    }
+
+    .site-header .navbar-toggler {
+        border: 1px solid;
+        color: #fff;
+        box-shadow: none !important;
+        outline: none;
+        position: absolute;
+        right: 23px;
+        z-index: 10;
+    }
+
+    .site-header .navbar-collapse {
+        position: absolute;
+        top: 90px;
+        width: 100%;
+        background: #48B138;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 10px;
+        left: 0;
+    }
+
+    .site-header .navbar a.active,
+    .site-header .navbar a:hover {
+        color: #267DDD !important;
+    }
+
+    .site-header .navbar .pages-names a {
+        margin: 0 0 0 0;
+        padding-top: 15px;
+        font-size: 16px;
+    }
+
+    .site-header .navbar .pages-names a.active,
+    .site-header .navbar .pages-names a:hover {
+        color: #053c78 !important;
+    }
+
+    .site-header .navbar {
+        padding: 10px 0;
+    }
+
+    .site-header .navbar-collapse {
+        top: 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .theme__container {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+    .logo-image {
+        width: 150px;
+    }
+
+    .btn_wrap span {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .theme__container {
+        padding: 0 15px;
+    }
+
+    .btn_wrap span {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .header-blue-btn.btn_wrap button {
+        margin-right: 70px;
+    }
+
+    .site-header .navbar-toggler {
+        right: 16px;
+    }
+}

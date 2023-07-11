@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-ExtraLight.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-ExtraBold.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Black.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Light.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Medium.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Regular.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('./assets/fonts/Outfit-Thin.woff2') format('woff2'),
+        url('./assets/fonts/Outfit-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+	font-family: 'Outfit';
+	font-weight: normal;
+  font-size: 18px;
+  color: #000;
+  min-height: 100vh;
+}
+.custom-container{
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 140px;
+}
+.gray-clr{
+  color: #646464 !important;
+}
+ul {padding-left: 0;}
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {margin-bottom: 0;}
+.btn,a {-o-transition: all ease-in-out 0.3s;-ms-transition: all ease-in-out 0.3s;-moz-transition: all ease-in-out 0.3s;-webkit-transition: all 0.3s ease-in-out;}
+.big-haeding {
+  letter-spacing: -4.8px;
+  font-size: 120px;
+}  
+h1{
+	font-size: 71px;
+	line-height: 85px;
+  }
+  h2{
+	font-size: 76px;
+	line-height: 86px;
+  }
+  h3{
+	font-size: 64px;
+  line-height: 70px;
+  font-weight: 600;
+  }
+  h4{
+	font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  }
+  h5{
+	font-size: 34px;
+	font-weight: 600;
+	line-height: 43px;
+  }
+  h6{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  p{
+    font-size: 18px;
+    line-height: 30px;
+  }
+  /* theme button */
+  .theme-btn{
+    background: #1A2A79;
+    padding: 10px 20px;
+    border-radius: 14px;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #fff;
+  }
