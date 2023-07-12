@@ -135,11 +135,12 @@ a {
   border-color: #1A2A79;
   color: #1A2A79;
 }
-.big-haeding {
-  letter-spacing: -4.8px;
-  font-size: 120px;
+.padding-top{
+  padding-top: 150px;
 }
-
+.padding-bottom{
+  padding-bottom: 150px;
+}
 h1 {
   font-size: 71px;
   line-height: 85px;

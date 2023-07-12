@@ -3,6 +3,7 @@ import Link from "../assets/images/link.png";
 import leadprovider1 from "../assets/images/lead-provider-1.png";
 import leadprovider2 from "../assets/images/lead-provider-2.png";
 import leadprovider3 from "../assets/images/lead-provider-3.png";
+import videoposter from "../assets/images/vide-poster.png";
 import sport1 from "../assets/images/sport-1.png";
 import sport2 from "../assets/images/sport-2.png";
 import sport3 from "../assets/images/sport-3.png";
@@ -18,6 +19,7 @@ export const Images = {
     leadprovider1,
     leadprovider2,
     leadprovider3,
+    videoposter,
     sport1,
     sport2,
     sport3,
