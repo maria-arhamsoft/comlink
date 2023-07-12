@@ -4,6 +4,7 @@ import Layout from './components/layout/Layout';
 import Home from './components/main/Home/Home';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import CableTv from './components/Pages/CableTv/CableTv';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           {/* Guest routes here */}
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            {/* <Route path="*" element={<NoPageFound />} /> */}
+            <Route path="/cabletv" element={<CableTv />} />
             {/* Add your public routes here eg. <Route path="example" element={<Component />} /> */}
           </Route>
           {/* <Route path="login" element={<Login />} />
