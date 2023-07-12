@@ -122,7 +122,7 @@ a {
 /* theme button */
 .theme-btn {
   background: #1A2A79;
-  padding: 15px 25px;
+  padding: 18px 25px;
   border-radius: 14px;
   text-transform: capitalize;
   font-size: 24px;
@@ -134,6 +134,19 @@ a {
 .theme-btn:hover {
   border-color: #1A2A79;
   color: #1A2A79;
+}
+.green-borderd-btn {
+  border: 1px solid #439037;
+  border-radius: 14px;
+  color: #439037;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+.green-borderd-btn:hover{
+  background-color:#439037 ;
+  color: #fff;
 }
 .padding-top{
   padding-top: 150px;
@@ -163,7 +176,7 @@ h3 {
 h4 {
   font-size: 40px;
   line-height: 50px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h5 {
