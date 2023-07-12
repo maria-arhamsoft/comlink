@@ -4,7 +4,7 @@ import "./Banner.css";
 
 function Banner() {
     return (
-        <div>
+        <>
             <section className='baner-section'>
                 <Container fluid className="custom-container">
                     <Row>
@@ -20,9 +20,8 @@ function Banner() {
                         </Col>
                     </Row>
                 </Container>
-
             </section>
-        </div>
+        </>
     )
 }
 
