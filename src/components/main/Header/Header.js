@@ -29,7 +29,7 @@ const Header = () => {
                             </Nav>
                             <div className="haeder-phone d-flex align-items-center">
                                 <Lottie
-                                className="call-lottie"
+                                    className="call-lottie"
                                     loop
                                     animationData={greenCall}
                                     play
