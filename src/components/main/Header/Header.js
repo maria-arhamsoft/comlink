@@ -25,7 +25,7 @@ const Header = () => {
                                 <Link to="/">Business</Link>
                                 <Link to="/">Free Tv Trial</Link>
                                 <Link to="/">Free Internet</Link>
-                                <Link to="/">Get A Quote</Link>
+                                <Link to="/getaqoute">Get A Quote</Link>
                             </Nav>
                             <div className="haeder-phone d-flex align-items-center">
                                 <Lottie

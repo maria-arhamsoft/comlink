@@ -1,0 +1,21 @@
+.cms-pages-baner{
+    position: relative;
+    height: 100%;
+   
+    position: relative;
+    padding: 358px 0px;
+}
+.cable_tv_content img{
+    width: 100%;
+    border-top: 7px solid #162466;
+    border-radius: 6px;
+    margin-top: 60px;
+}
+.tv_cable_banner{
+    background: url(../../../assets/images/cabletv.png) ;
+    background-repeat: no-repeat;
+}
+.get-a-qoute_banner{
+    background: url(../../../assets/images/qoute_banner.png) ;
+    background-repeat: no-repeat;
+}
