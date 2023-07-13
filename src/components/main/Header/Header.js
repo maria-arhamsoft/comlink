@@ -19,13 +19,13 @@ const Header = () => {
                         <Navbar.Collapse id="basic-navbar-nav" className="pages-names">
                             <Nav className="ms-auto">
                                 <Link to="/">Home</Link>
-                                <Link to="/">Cabel Tv</Link>
+                                <Link to="/cabletv">Cabel Tv</Link>
                                 <Link to="/">Internet</Link>
                                 <Link to="/">Phone</Link>
                                 <Link to="/">Business</Link>
                                 <Link to="/">Free Tv Trial</Link>
                                 <Link to="/">Free Internet</Link>
-                                <Link to="/">Get A Quote</Link>
+                                <Link to="/getaqoute">Get A Quote</Link>
                             </Nav>
                             <div className="haeder-phone d-flex align-items-center">
                                 <Lottie

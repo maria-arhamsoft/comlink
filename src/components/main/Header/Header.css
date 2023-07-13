@@ -1,11 +1,6 @@
 .site-header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 16px #00000029;
-    z-index: 1;
     width: 100%;
 }
 

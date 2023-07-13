@@ -2,8 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from './components/layout/Layout';
 import Home from './components/main/Home/Home';
-import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import CableTv from './components/Pages/CableTv/CableTv';
+import GetAQoute from './components/Pages/GetAQoute/GetAQoute';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
           {/* Guest routes here */}
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            {/* <Route path="*" element={<NoPageFound />} /> */}
+            <Route path="/cabletv" element={<CableTv />} />
+            <Route path="/getaqoute" element={<GetAQoute />} />
+
             {/* Add your public routes here eg. <Route path="example" element={<Component />} /> */}
           </Route>
           {/* <Route path="login" element={<Login />} />
