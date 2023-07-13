@@ -1,0 +1,66 @@
+.serch-provider-section{
+    background: #1A2A79;
+    padding: 100px 0;
+    position: relative;
+}
+.search-code {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:700px;
+    margin: 0 auto;
+    position: relative;
+}
+.search-code .form-control {
+    font-size: 24px;
+    max-width: 500px;
+    height: 71px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    border-radius: 9px;
+    padding-left: 70px;
+    padding-right: 30px;
+    color: #1A2A79;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.search-code input.form-control::placeholder{
+    font-size: 24px;
+    color: #1A2A79;
+}
+button.search--provider-btn {
+    background: #1A2A79 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 9px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px 18px;
+    width: 325px;
+    margin-left: -20px;
+    z-index: 1;
+}
+span.zip-code-img {
+    position: absolute;
+    left: 17px;
+    z-index: 1;
+    width: 35px;
+}
+.serch-provider-content h4{
+    padding-bottom: 50px;
+}
+.serch-provider-content p{
+    padding-bottom: 30px;
+}
+div#comp-lottie {
+    position: absolute;
+    width: 470px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.map-section{
+    padding: 100px 0;
+}

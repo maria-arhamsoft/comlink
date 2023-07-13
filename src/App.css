@@ -88,7 +88,9 @@ body {
 .gray-clr {
   color: #646464 !important;
 }
-
+.gray-light{
+  color: #D0D0D0;
+}
 .theme-clr {
   color: #1A2A79;
 }
