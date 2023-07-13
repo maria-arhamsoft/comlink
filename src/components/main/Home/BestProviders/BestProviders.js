@@ -22,7 +22,7 @@ function BestProviders() {
 								<img src={Images.leadprovider1} className="img-fluid" alt="img" />
 							</div>
 						</Col>
-						<Col lg={5} className='d-flex justify-content-end'> 
+						<Col lg={5} className='d-flex justify-content-end  ps-xl-5 ps-lg-3 ps-0'> 
 							<div className='lead-provider-content'>
 								<h4 className='theme-clr '>Find The Leading Providers In Your Area Within 20 Seconds.</h4>
 								<p>We’ve found the top internet, TV and streaming providers, their best offers and most popular plans just for you. When you’ve found what you need, place your order and pat yourself on the back.</p>
@@ -42,7 +42,7 @@ function BestProviders() {
 								</div>
 							</div>
 						</Col>
-						<Col lg={7} className='d-flex justify-content-end'>
+						<Col lg={7} className='d-flex justify-content-end  ps-xl-5 ps-lg-3 ps-0'>
 							<div className='lead-vidoe-container relative'>
 								<div id="myVideo">
 									{isPlaying ? (
@@ -71,7 +71,7 @@ function BestProviders() {
 								<img src={Images.leadprovider2} className="img-fluid" alt="img" />
 							</div>
 						</Col>
-						<Col lg={5} className='d-flex justify-content-end'>
+						<Col lg={5} className='d-flex justify-content-end  ps-xl-5 ps-lg-3 ps-0'>
 							<div className='lead-provider-content'>
 								<h4 className='theme-clr '>High-Speed Internet Is Just A Call Away</h4>
 								<p>Finding an Internet service provider can be lengthy and complicated. As it requires a lot of research and
@@ -95,7 +95,7 @@ function BestProviders() {
 								</div>
 							</div>
 						</Col>
-						<Col lg={7} className='d-flex justify-content-end'>
+						<Col lg={7} className='d-flex justify-content-end ps-xl-5 ps-lg-3 ps-0'>
 							<div className='lead-img-container'>
 								<img src={Images.leadprovider4} className="img-fluid" alt="img" />
 							</div>
@@ -107,7 +107,7 @@ function BestProviders() {
 								<img src={Images.leadprovider3} className="img-fluid" alt="img" />
 							</div>
 						</Col>
-						<Col lg={5} className='d-flex justify-content-end'>
+						<Col lg={5} className='d-flex justify-content-end ps-xl-5 ps-lg-3 ps-0'>
 							<div className='lead-provider-content'>
 								<h4 className='theme-clr '>Sports Assortment</h4>
 								<p>Don’t miss the magical moments; get all of the action with Comlink Bundle as we bring all of your favorite local sports channels. We bring you LIVE STREAMING of your favorite live sports and get on-demand shows. Moreover, you can stream all the local, and international sports live.</p>

@@ -39,12 +39,12 @@ function SearchProvider() {
             <section className='map-section'>
                 <Container fluid className="custom-container">
                     <Row className='align-items-center padding-bottom'>
-                        <Col lg={7}>
-                            <div className='lead-img-container'>
+                        <Col lg={6}>
+                            <div className='map-img-container'>
                                 <img src={Images.map} className="img-fluid" alt="img" />
                             </div>
                         </Col>
-                        <Col lg={5} className='d-flex justify-content-end'>
+                        <Col lg={6} className='d-flex justify-content-end ps-xl-5 ps-lg-3 ps-0'>
                             <div className='lead-provider-content'>
                                 <h4 className='theme-clr '>We've Got You Covered With All The Providers Available At Your Address!</h4>
                                 <p>Searching for Phone,TV & Internet providers might get hectic for you. It takes a lot of time and energy as you have to do plenty of research. However, Cable bundle has done the research to help you find the best deals in your area. Meanwhile, you have to give us a call to acquire all information regarding these particular services.</p>

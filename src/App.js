@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Layout from './components/layout/Layout';
 import Home from './components/main/Home/Home';
-import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
+import './App.css';
 import CableTv from './components/Pages/CableTv/CableTv';
 import GetAQoute from './components/Pages/GetAQoute/GetAQoute';
 

@@ -12,7 +12,7 @@ const Header = () => {
             <header className="site-header">
                 <div className="custom-container">
                     <Navbar expand="lg">
-                        <Navbar.Brand href="#home">
+                        <Navbar.Brand to="/">
                             <img src={Images.siteLogo} className="img-fluid site-main-logo" alt="img" />
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
