@@ -25,7 +25,7 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4">
-                                <div className="d-flex justify-content-end">
+                                <div className="d-flex justify-content-lg-end justify-content-center mt-lg-0 mt-3">
                                     <button className="btn theme-btn">Get Started</button>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ const Footer = () => {
                             <Col lg={2}>
                                 <div className="footer-links">
                                     <h5 className="">Contact Us</h5>
-                                    <div className="contact-list padding-100">
+                                    <div className="contact-list">
                                         <div className="footer-links">
                                             <ul className="list-unstyled contact-info flex-column">
                                                 <li>

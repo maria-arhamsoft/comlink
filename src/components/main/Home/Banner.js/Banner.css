@@ -1,18 +1,17 @@
-
 .baner-section {
     background-image: url(../../../../assets/images/banner-bg.png);
-    height: 110vh;
+    min-height: 100vh;
     background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 78% 100%;
-    padding: 200px 0;
+    background-position-y: -61px;
+    background-position-x: right;
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: -100px;
 }
-.baner-section::before{
+
+.baner-section::before {
     background-image: url(../../../../assets/images/baner-left-curve.png);
     background-repeat: no-repeat;
     top: 140px;
@@ -22,6 +21,7 @@
     position: absolute;
     content: "";
 }
+
 .baner-section::after {
     position: absolute;
     content: "";
@@ -32,15 +32,94 @@
     bottom: -143px;
     right: 0;
 }
-.baner-content{
+
+.baner-content {
     max-width: 740px;
 }
-.baner-btn{
+
+.baner-btn {
     margin-top: 70px;
 }
-.baner-content p{
+
+.baner-content p {
     font-size: 28px;
     line-height: 30px;
     padding-top: 20px;
     font-weight: 300;
+}
+
+@media only screen and (max-width: 1600px) {
+    .baner-content p {
+        font-size: 20px;
+        padding-top: 16px;
+    }
+
+    .baner-btn {
+        margin-top: 50px;
+    }
+
+    .baner-section::after {
+        width: 180px;
+        height: 462px;
+        bottom: -134px;
+    }
+
+    .baner-section::before {
+        top: -95px;
+        left: -37px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .baner-section::after {
+        width: 128px;
+    }
+
+    .baner-section::before {
+        top: -150px;
+        left: -50px;
+    }
+
+    .baner-btn {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .baner-btn {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .baner-content p {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .baner-section {
+        background-position-x: 300px;
+        min-height: 60vh;
+    }
+    .baner-section::after {
+        width: 116px;
+        right: -12px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .baner-section {
+        background-position-x: 300px;
+    }
+}
+@media only screen and (max-width: 675px) {
+   
+    .baner-content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .baner-section {
+        background-position-x: 72px;
+    }
 }

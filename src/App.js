@@ -6,6 +6,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import CableTv from './components/Pages/CableTv/CableTv';
 import GetAQoute from './components/Pages/GetAQoute/GetAQoute';
+import Internet from './components/Pages/Internet/Internet';
+import PhonePg from './components/Pages/PhonePg/PhonePg';
 
 function App() {
   return (
@@ -16,8 +18,11 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="/cabletv" element={<CableTv />} />
+            <Route path="/internet" element={<Internet />} />
             <Route path="/getaqoute" element={<GetAQoute />} />
+            <Route path="/phone" element={<PhonePg />} />
 
+            
             {/* Add your public routes here eg. <Route path="example" element={<Component />} /> */}
           </Route>
           {/* <Route path="login" element={<Login />} />

@@ -12,7 +12,7 @@ function QuestionAnswer() {
             <section className='QuestionAnswer'>
                 <Container fluid className="custom-container">
                     <Row>
-                        <Col lg={3}>
+                        <Col lg={3} >
                             <div className='blue-box heading-content'>
                                 <h5>We Have The</h5>
                                 <h5><span className='big-heading'>Answers</span></h5>
@@ -20,7 +20,7 @@ function QuestionAnswer() {
                                 <h5><span className='big-heading'>Questions!</span></h5>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={4} className='mb-md-0 mb-3'>
                             <div className='white-box QuesnAns-content'>
                                 <div className='question-lottie'>
                                     <Lottie
@@ -33,7 +33,7 @@ function QuestionAnswer() {
                                 <p className='mt lg-3 mt-2 mt-1'>  Searching for an internet or TV provider can be hectic. Contact Us, and we will guide you about the best feasible options according to your zip code. </p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={4} className='mb-md-0 mb-3'>
                             <div className='white-box  QuesnAns-content'>
                                 <div className='question-lottie'>
                                     <Lottie
@@ -46,7 +46,7 @@ function QuestionAnswer() {
                                 <p className='mt lg-3 mt-2 mt-1'>Assess your needs, compare rate plans and prices of nearby Phone TV & Internet providers, and narrow down your choice, which ideally suits your needs.</p>
                             </div>
                         </Col>
-                        <Col lg={3}>
+                        <Col lg={3} md={4} className='mb-md-0 mb-3'>
                             <div className='white-box  QuesnAns-content'>
                                 <div className='question-lottie'>
                                     <Lottie

@@ -13,6 +13,7 @@
     box-shadow: 0px 0px 16px #0000001C;
     padding: 60px 28px;
     border-radius: 16px;
+    height: 100%;
 }
 span.big-heading {
     font-size: 54px;
@@ -21,4 +22,48 @@ span.big-heading {
 .question-lottie {
     width: 115px;
     margin: 0 auto 20px;
+}
+@media only screen and (max-width: 1600px) {
+    span.big-heading {
+        font-size: 50px;
+    }
+    .white-box {
+        padding: 30px 22px;
+    }
+}
+@media only screen and (max-width: 1399px) {
+    span.big-heading {
+        font-size: 40px;
+    }
+    .question-lottie {
+        width: 90px;
+        margin: 0 auto 10px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    span.big-heading {
+        font-size: 30px;
+    }
+    .blue-box.heading-content {
+        max-width: 400px;
+        margin: 0 auto 20px;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+    .QuesnAns-content{
+        text-align: center;
+    }
+    .QuestionAnswer {
+        padding: 44px 0 80px;
+    }
+}
+@media only screen and (max-width: 675px) {
+    .QuestionAnswer {
+        padding: 0 0 50px;
+    }
+    .blue-box.heading-content{
+        padding: 25px;
+    }
 }

@@ -50,42 +50,39 @@
     transition: all ease-in-out 0.3s;
 }
 
-.site-header .navbar a:hover:after,
-.site-header.navbar a.active:after {
-    width: 100%;
+.site-header .navbar a:hover::after,
+.site-header .navbar a.active::after {
+    width: 100% !important;
 }
-
 /* media quries */
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 1600px) {
     .site-header .navbar .pages-names a {
-        margin: 0 0 0 40px;
+        margin: 0 0 0 30px;
+        font-size: 16px;
     }
-
-    .header-blue-btn.btn_wrap button {
-        margin: 0 0 0 40px;
+    .haeder-phone {
+        margin-left: 30px;
     }
 }
 
 @media only screen and (max-width: 1399px) {
-    .site-header .navbar .pages-names a {
-        margin: 0px 0 0 30px;
+    .haeder-phone {
+        margin-left:20px;
     }
-
-    .header-blue-btn.btn_wrap button {
-        margin: 0 0 0 30px;
-    }
-
     .site-header .navbar .pages-names a {
+        margin: 0px 0 0 20px;
         font-size: 14px;
+    }
+    .header-blue-btn.btn_wrap button {
+        margin: 0 0 0 20px;
     }
 
     .site-header .navbar {
         padding: 10px 0;
     }
-
-    .logo-image {
-        width: 240px;
+    .site-main-logo {
+        width: 153px;
     }
 }
 
@@ -93,6 +90,7 @@
 @media only screen and (max-width: 1199px) {
     .site-header .navbar .pages-names a {
         margin: 0 0 0 15px;
+        font-size: 13px;
     }
 
     .logo-image {
@@ -111,7 +109,7 @@
     }
 
     .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(255,255,255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+        background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgb(72, 177, 56)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
     }
 
     .site-header .navbar-toggler {
@@ -160,9 +158,9 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
-    .theme__container {
-        padding: 0 30px;
+@media only screen and (max-width: 992px) {
+    .haeder-phone {
+        margin-left: 0;
     }
 }
 
@@ -178,10 +176,7 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .theme__container {
-        padding: 0 15px;
-    }
-
+   
     .btn_wrap span {
         padding: 10px 10px;
         font-size: 12px;

@@ -1,10 +1,12 @@
 import React from 'react'
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
+import "../CmsBanner/CmsBanner.css"
+import ComlinkTv from "../../../assets/images/comlinktv.png"
 
-function CmsBanner() {
+function Internet() {
 	return (
 		<div className='banner_content'>
-			<div className='cms-pages-baner tv_cable_banner'>
+			<div className='cms-pages-baner internet_banner'>
 				<Container fluid className="custom-container">
 					<div className='cms-heading-content text-white'>
 						<h4>EVERYTHING YOU WANT TO DISCOVER</h4>
@@ -13,9 +15,13 @@ function CmsBanner() {
 					</div>
 				</Container>
 			</div>
+            <div className='custom-container'>
+				<div className='cable_tv_content'>
+					<img src={ComlinkTv} />
+				</div>
+			</div>
 		</div>
-
 	)
 }
 
-export default CmsBanner
+export default Internet

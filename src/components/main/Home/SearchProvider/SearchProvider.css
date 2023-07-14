@@ -1,16 +1,18 @@
-.serch-provider-section{
+.serch-provider-section {
     background: #1A2A79;
     padding: 100px 0;
     position: relative;
 }
+
 .search-code {
     display: flex;
     align-items: center;
     justify-content: center;
-    width:700px;
+    width: 700px;
     margin: 0 auto;
     position: relative;
 }
+
 .search-code .form-control {
     font-size: 24px;
     max-width: 500px;
@@ -25,10 +27,12 @@
     text-transform: capitalize;
     font-weight: 600;
 }
-.search-code input.form-control::placeholder{
+
+.search-code input.form-control::placeholder {
     font-size: 24px;
     color: #1A2A79;
 }
+
 button.search--provider-btn {
     background: #1A2A79 0% 0% no-repeat padding-box;
     border: 1px solid #FFFFFF;
@@ -42,18 +46,22 @@ button.search--provider-btn {
     margin-left: -20px;
     z-index: 1;
 }
+
 span.zip-code-img {
     position: absolute;
     left: 17px;
     z-index: 1;
     width: 35px;
 }
-.serch-provider-content h4{
+
+.serch-provider-content h4 {
     padding-bottom: 50px;
 }
-.serch-provider-content p{
+
+.serch-provider-content p {
     padding-bottom: 30px;
 }
+
 div#comp-lottie {
     position: absolute;
     width: 470px;
@@ -61,11 +69,96 @@ div#comp-lottie {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-.map-section{
-    padding: 100px 0;
+
+.map-section {
+    padding: 150px 0;
 }
+
 .map-img-container {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 0px 9px #00000012;
     border-radius: 14px;
-  }
+}
+
+@media only screen and (max-width: 1600px) {
+    .serch-provider-section {
+        padding: 80px 0;
+    }
+
+    .serch-provider-content h4 {
+        padding-bottom: 15px;
+    }
+
+    .search-code .form-control {
+        height: 50px;
+    }
+
+    button.search--provider-btn {
+        font-size: 15px;
+        padding: 14px 18px;
+        width: 272px;
+        margin-left: -12px;
+    }
+
+    .search-code {
+        width: 600px;
+    }
+
+    div#comp-lottie {
+        width: 341px;
+
+    }
+    .search-code .form-control {
+        font-size: 18px;
+    }
+    .search-code input.form-control::placeholder {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    .map-section {
+        padding: 100px 0;
+    }
+    .search-code .form-control {
+        font-size: 16px;
+    }
+    .search-code input.form-control::placeholder {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .map-section {
+        padding: 70px 0;
+    }
+    .search-code {
+        max-width: 500px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .search-code {
+        max-width: 400px;
+    }
+    .search-code .form-control {
+        font-size: 16px;
+    }
+    .search-code input.form-control::placeholder {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .search-code {
+        max-width: 290px;
+    }
+    button.search--provider-btn {
+        font-size: 13px;
+        padding: 15px 11px;
+        width: 272px;
+    }
+    .search-code .form-control {
+        font-size: 14px;
+    }
+    .search-code input.form-control::placeholder {
+        font-size: 14px;
+    }
+}

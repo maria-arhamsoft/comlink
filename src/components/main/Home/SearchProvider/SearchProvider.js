@@ -38,8 +38,8 @@ function SearchProvider() {
             </section>
             <section className='map-section'>
                 <Container fluid className="custom-container">
-                    <Row className='align-items-center padding-bottom'>
-                        <Col lg={6}>
+                    <Row className='align-items-center'>
+                        <Col lg={6} >
                             <div className='map-img-container'>
                                 <img src={Images.map} className="img-fluid" alt="img" />
                             </div>
