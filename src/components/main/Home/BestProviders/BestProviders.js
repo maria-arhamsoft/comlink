@@ -7,11 +7,9 @@ import "./Bst-Provider.css";
 
 function BestProviders() {
 	const [isPlaying, setIsPlaying] = useState(false);
-
 	const handleIconClick = () => {
 		setIsPlaying(true);
 	}
-
 	return (
 		<>
 			<section className='lead-providers'>

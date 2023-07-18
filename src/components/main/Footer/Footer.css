@@ -288,8 +288,11 @@ li.menu-item-has-children a:hover {
         padding-top: 0;
         text-align: center;
         background-size: cover;
+        background-position: center;
     }
-
+    .footer-content-row.row {
+        margin-top: 45px;
+    }
     .footer-logo {
         margin: 0 auto;
     }

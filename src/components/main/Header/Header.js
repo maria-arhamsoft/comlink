@@ -6,7 +6,7 @@ import { Images } from "../../../assets/assets";
 import "./Header.css";
 import Lottie from 'react-lottie-player'
 import greenCall from "../../../assets/json-files/call-green.json";
-import { Container} from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Header = () => {
   const location = useLocation();
@@ -36,16 +36,16 @@ const Header = () => {
                 <Link to="/getaqoute" className={location.pathname === "/getaqoute" ? "active" : ""}>Get A Quote</Link>
               </Nav>
               <div className="haeder-phone d-flex align-items-center">
-                <Lottie
-                  className="call-lottie"
-                  loop
-                  animationData={greenCall}
-                  play
-                />
                 <a
-                  className="ms-xl-3 ms-lg-2 ms-1 gray-clr"
+                  className="d-flex align-items-center ms-xl-3 ms-lg-2 ms-1 gray-clr"
                   href="tel: 3111687332"
                 >
+                  <Lottie
+                    className="call-lottie"
+                    loop
+                    animationData={greenCall}
+                    play
+                  />
                   833 604-1080
                 </a>
               </div>

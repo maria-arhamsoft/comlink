@@ -1,32 +1,44 @@
-.form_content label{
-    font-size:20px;
+.form_image{
+    position: relative;
+    background-image: url(../../../assets/images/qoute-form.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 26px;
+}
+.form_content label {
+    font-size: 20px;
     color: #1A2A79;
-    font-weight: 600;
+    font-weight: 300;
     margin-bottom: 10px;
+    line-height: 26px;
+    font-weight: 600;
 }
-
-.form_content input{
-  background-color: #FFFFFF;;
-  box-shadow: 0px 0px 10px #0000001A;
-  border-radius: 10px;
-  border: none;
-  padding: 18px 30px;
+.form_content .form-control {
+    background-color: #FFFFFF; ;
+    box-shadow: 0px 0px 10px #0000001A;
+    border-radius: 10px;
+    border: none;
+    padding: 18px 30px;
+    color: #888888;
+    text-transform: capitalize;
+    font-size: 18px;
 }
-.qoute__form{
+.qoute__form {
     padding: 20px 75px 20px 20px;
     box-shadow: 0px 0px 20px #00000012;
     border-radius: 30px;
     opacity: 1;
 }
-.form_content{
+.form_content {
     padding-top: 74px;
     padding-left: 40px;
 }
-.form_image img{
+.form_image img {
     border-radius: 27px;
     width: 100%;
 }
-.form_content select{
+.form_content select {
     width: 100%;
     background-color: #FFFFFF;
     box-shadow: 0px 0px 10px #0000001A;
@@ -37,23 +49,122 @@
     color: #1A2A79;
     text-transform: capitalize;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 300;
     appearance: none;
     background: url(../../../assets/images/downarrow.svg);
     background-repeat: no-repeat;
     background-position-x: calc(100% - 30px);
     background-position-y: calc(100% - 28px);
+    font-weight: 600;
 }
-.Submitting_form{
+.Submitting_form {
     color: #161616;
-text-transform: capitalize;
-font-size: 18px;
-font-weight: light;
-margin-left: 27px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 300 !important;
+    margin-left: 27px;
 }
-.terms_condition{
+.terms_condition {
     margin-top: 40px;
 }
-.qoute__form{
+.qoute__form {
     margin: 70px 0px 120px 0px;
+}
+@media only screen and (max-width: 1600px) {
+    .form_content label {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .form_content .form-control,.form_content select{
+        padding: 15px 13px;
+        font-size: 16px;
+    }
+    .form_content select{
+        margin-top: 20px;
+        background-position-x: calc(100% - 19px);
+        background-position-y: calc(100% - 20px);
+    }
+    .Submitting_form {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .form_content {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 1367px) {
+    .form_content label {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .form_content .form-control,.form_content select{
+        padding: 12px 13px;
+        font-size: 15px;
+    }
+    .form_content select {
+        margin-top: 20px;
+        background-position-x: calc(100% - 14px);
+        background-position-y: calc(100% - 18px);
+    }
+    .Submitting_form {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .form_content {
+        padding-top: 40px;
+    }
+    .terms_condition {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .form_content label {
+        font-size: 14px;
+    }
+    .form_content .form-control,.form_content select{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .form_content select {
+        margin-top: 15px;
+        background-position-y: calc(100% - 14px);
+    }
+    .Submitting_form {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .form_content {
+        padding: 50px;
+    }
+    .terms_condition {
+        margin-top: 16px;
+    }
+    .form_image {
+        height: 50vh;
+    }
+    .qoute__form{
+        padding: 0;
+        margin: 20px 0px 100px 0px;
+    }
+  
+}
+@media only screen and (max-width: 992px) {
+    .form_image {
+        height: 30vh;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .form_content {
+        padding: 25px;
+    }
+   
+}
+@media only screen and (max-width: 575px) {
+    .form_content {
+        padding: 25px 10px;
+    }
+    .form_content .form-control, .form_content select,.form_content label{
+        font-size: 12px;
+    }
 }

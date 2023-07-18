@@ -10,7 +10,7 @@ function PhonePg() {
 				<Container fluid className="custom-container">
 					<div className='cms-heading-content text-white'>
 						<h4>EXPAND YOUR</h4>
-						<h2>EXPAND YOUR</h2>
+						<h2>POSSIBILITIES</h2>
 						<p>Phone Services With Free Premium Features Unlimited Nationwide Calling Call Waiting & Call Forwarding</p>
 					</div>
 				</Container>
