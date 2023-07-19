@@ -21,8 +21,6 @@ function App() {
             <Route path="/internet" element={<Internet />} />
             <Route path="/getaqoute" element={<GetAQoute />} />
             <Route path="/phone" element={<PhonePg />} />
-
-            
             {/* Add your public routes here eg. <Route path="example" element={<Component />} /> */}
           </Route>
           {/* <Route path="login" element={<Login />} />

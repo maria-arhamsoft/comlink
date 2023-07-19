@@ -47,13 +47,13 @@ const Footer = () => {
                                             <a href="#">Home</a>
                                         </li>
                                         <li>
-                                            <a href="#">Cable Tv</a>
+                                            <a href="/cabletv">Cable Tv</a>
                                         </li>
                                         <li>
-                                            <a href="#">Internet </a>
+                                            <a href="/internet">Internet </a>
                                         </li>
                                         <li>
-                                            <a href="#">Phone</a>
+                                            <a href="/phone">Phone</a>
                                         </li>
                                         <li>
                                             <a href="#">Business</a>
