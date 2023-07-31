@@ -45,9 +45,7 @@ function Faqs() {
                                             Staff augmentation is a great way for businesses to increase the efficiency of their operations by utilizing the skills and expertise of external professionals. It allows companies to fill in gaps in their workforce, add specialized skillsets, or scale up quickly when needed. By leveraging staff augmentation, companies can reduce costs and increase productivity while still maintaining quality standards.
                                         </Accordion.Body>
                                     </Accordion.Item>
-                                  
                                 </Accordion>
-                                
                             </div>
                         </Col>
                         <Col lg={5} className='d-flex justify-content-end ps-xl-5 ps-lg-3 ps-0 order-lg-2 order-1'>

@@ -8,6 +8,7 @@ function Internet() {
 		<div className='banner_content'>
 			<div className='cms-pages-baner internet_banner'>
 				<Container fluid className="custom-container">
+					<div></div>
 					<div className='cms-heading-content text-white'>
 						<h4>EVERYTHING YOU WANT TO DISCOVER</h4>
 						<h2>ABOUT THE INTERNET PROVIDERS!</h2>

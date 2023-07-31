@@ -18,7 +18,7 @@ const Footer = () => {
                 <Container fluid className="custom-container">
                     <div className="top-footer">
                         <Row className="get-started">
-                            <div className="col-lg-8">
+                            <div className="col-lg-8">                                      
                                 <div className="get-start-content">
                                     <h5>Get Started with Comlink</h5>
                                     <p>Comlinkbundle can help you find the best-bundled deal for your TV, Internet, and Phone services to save your time and money.</p>
@@ -50,7 +50,7 @@ const Footer = () => {
                                             <a href="/cabletv">Cable Tv</a>
                                         </li>
                                         <li>
-                                            <a href="/internet">Internet </a>
+                                            <a href="/internet">Internet </a> 
                                         </li>
                                         <li>
                                             <a href="/phone">Phone</a>

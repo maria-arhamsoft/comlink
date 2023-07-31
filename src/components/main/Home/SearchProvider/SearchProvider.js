@@ -26,9 +26,7 @@ function SearchProvider() {
                                     <span className='zip-code-img'>
                                         <img src={Images.zipicon} className="img-fluid" alt="img" />
                                     </span>
-                                    <input className="form-control" placeholder='Zip Code'>
-
-                                    </input>
+                                    <input className="form-control" placeholder='Zip Code'></input>
                                     <button className='search--provider-btn'>Search Providers</button>
                                 </div>
                             </div>

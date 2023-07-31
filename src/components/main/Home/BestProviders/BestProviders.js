@@ -18,7 +18,7 @@ function BestProviders() {
 						<Col lg={7}> 
 							<div className='lead-img-container'>
 								<img src={Images.leadprovider1} className="img-fluid" alt="img" />
-							</div>
+						</div>
 						</Col>
 						<Col lg={5} className='d-flex justify-content-end  ps-xl-5 ps-lg-3 ps-0'> 
 							<div className='lead-provider-content'>
@@ -44,7 +44,7 @@ function BestProviders() {
 							<div className='lead-vidoe-container relative'>
 								<div id="myVideo">
 									{isPlaying ? (
-										<iframe className='iframe-video' width="100%" height="500" src="https://www.youtube.com/embed/2QJ3w_xJBwk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+										<iframe className='iframe-video' width="100%"  src="https://www.youtube.com/embed/2QJ3w_xJBwk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 									) : (
 										<>
 											<img src={Images.videoposter} className="poster-image" alt="Poster" />
